@@ -85,7 +85,7 @@ class visualialog(QDialog) :
 
 
     def pushButton2Clicked(self) :
-        movie = pd.read_csv("./Data/oneoneone_directors_spectators.csv")    
+        movie = pd.read_csv("./Data/directors_spectators.csv")    
         self.tableWidget.setRowCount(movie.shape[0])        
         self.tableWidget.setColumnCount(movie.shape[1])
         self.label1.setText("total number of rows: " + str(movie.shape[0]))
@@ -108,7 +108,7 @@ class visualialog(QDialog) :
             self.tableWidget.setItem(idx, 1, QTableWidgetItem(누적관객수))
 
     def pushButton3Clicked(self) :
-        movie = pd.read_csv("./Data/oneoneone_actors_spectators.csv")
+        movie = pd.read_csv("./Data/actors_spectators.csv")
 
         self.tableWidget.setRowCount(movie.shape[0])            
         self.tableWidget.setColumnCount(movie.shape[1])
@@ -133,7 +133,7 @@ class visualialog(QDialog) :
             self.tableWidget.setItem(idx, 1, QTableWidgetItem(누적관객수))
     
     def pushButton4Clicked(self) :
-        movie = pd.read_csv("./Data/oneoneone_distributors_spectators.csv")
+        movie = pd.read_csv("./Data/distributors_spectators.csv")
         
 
         self.tableWidget.setRowCount(movie.shape[0])          

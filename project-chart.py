@@ -70,7 +70,7 @@ class graphDialog(QDialog) :
 
     def pushButton1Clicked(self) :
         
-        movie_month = pd.read_csv("./Data/oneoneone_month_spectators.csv")
+        movie_month = pd.read_csv("./Data/month_spectators.csv")
         ax = self.fig.add_subplot(111)
         ax.clear()
         result = movie_month['누적관객수'] # accumulated number of audiences
@@ -91,7 +91,7 @@ class graphDialog(QDialog) :
 
     def pushButton2Clicked(self) :
         
-        movie_year = pd.read_csv("./Data/oneoneone_year_spectators.csv")
+        movie_year = pd.read_csv("./Data/year_spectators.csv")
         ax = self.fig.add_subplot(111)
         ax.clear()
         result = movie_year['누적관객수'] # accumulated number of audiences
@@ -112,7 +112,7 @@ class graphDialog(QDialog) :
 
     def pushButton3Clicked(self) :
         
-        movie_genre = pd.read_csv("./Data/oneoneone_genre_spectators.csv")
+        movie_genre = pd.read_csv("./Data/genre_spectators.csv")
         ax = self.fig.add_subplot(111)
         ax.clear()
         
@@ -133,7 +133,7 @@ class graphDialog(QDialog) :
         self.canvas.draw()
 
     def pushButton4Clicked(self) :
-        movie_rating = pd.read_csv("./Data/oneoneone_rating_spectators.csv")        
+        movie_rating = pd.read_csv("./Data/rating_spectators.csv")        
         ax = self.fig.add_subplot(111)
         ax.clear()
         result = movie_rating['누적관객수'] # accumulated number of audiences
