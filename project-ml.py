@@ -98,7 +98,7 @@ class machineLearingDialog(QDialog) :
         genre_input = total_line_up.loc[total_line_up['개별장르'].str.contains(genre), '개별장르_index'].reset_index()['개별장르_index'][0]
         level_input = total_line_up.loc[total_line_up['등급'].str.contains(level), '등급_index'].reset_index()['등급_index'][0]
         
-        # from sklearn.externals import joblib
+        from sklearn.externals import joblib
         load_model=joblib.load("./movie_knn_model.sav")       
         pre1 = load_model.predict([[year_input, month_input, director_input, actor_input ,deliver_input,genre_input,level_input]])
         self.label9.setText("audience prediction : " + str(np.exp(pre1)))
