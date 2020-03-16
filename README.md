@@ -15,7 +15,7 @@ Other columns: film name, film distributing company, film rating, film genre, fi
 
 Sample
 -------
-<img src = "C:/Users/user/Desktop/screenshot/movie_main.png">
+![main page]("C:/Users/user/Desktop/screenshot/movie_main.png")
 
 '''
 
