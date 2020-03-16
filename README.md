@@ -38,9 +38,11 @@ Getting Started
 -----------
 
 After downloading movie_audience_prediction repository, please type below on command prompt or shell  
-'''  
+<pre>
+<code>
 $ [sudo] python3 project-main.py  
-'''  
+</code>
+</pre>
 
 
 
