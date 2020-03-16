@@ -27,10 +27,10 @@ rankings
 charts  
 <img width="801" alt="movie_chart" src="https://user-images.githubusercontent.com/57359849/76737980-1e164300-67ad-11ea-8632-69a0ec30c699.PNG">    
 
-visualizations
+visualizations  
 <img width="661" alt="movie_visualization" src="https://user-images.githubusercontent.com/57359849/76738000-27071480-67ad-11ea-8813-4c777603ca09.PNG">    
 
-prediction
+prediction  
 <img width="464" alt="movie_prediction" src="https://user-images.githubusercontent.com/57359849/76738008-2bcbc880-67ad-11ea-9028-6166fc0bddf8.PNG">    
 
 
@@ -38,9 +38,9 @@ Getting Started
 -----------
 
 After downloading movie_audience_prediction repository, please type below on command prompt or shell  
-'''
-$ [sudo] python3 project-main.py
-'''
+'''  
+$ [sudo] python3 project-main.py  
+'''  
 
 
 
