@@ -15,7 +15,7 @@ Method
 
 Sample
 -------
-![main page](/screenshot/movie_main.png)
+<img width="251" alt="movie_main" src="https://user-images.githubusercontent.com/57359849/76737391-08544e00-67ac-11ea-9664-fab1d61eb203.PNG">
 
 '''
 
