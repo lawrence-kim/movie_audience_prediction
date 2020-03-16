@@ -36,8 +36,7 @@ brief explanations in Korean
 
 ### Ranking    
 <img width="651" alt="movie_ranking" src="https://user-images.githubusercontent.com/57359849/76737971-1787cb80-67ad-11ea-84e2-34121c87ce56.PNG">  
-first column = actor  
-second column = accumulated number of audiences  
+first column is actor and second column is accumulated number of audiences  
 
 ### Chart   
 <img width="801" alt="movie_chart" src="https://user-images.githubusercontent.com/57359849/76737980-1e164300-67ad-11ea-8632-69a0ec30c699.PNG">  
@@ -49,7 +48,7 @@ above word cloud is sorted by film distributing companies
 
 ### Prediction  
 <img width="464" alt="movie_prediction" src="https://user-images.githubusercontent.com/57359849/76738008-2bcbc880-67ad-11ea-9028-6166fc0bddf8.PNG">  
-Prediction of a movie released in November 2020, directed by 이병헌 with an actor 송강호, distributed by 씨제이, genre type drama, PG-13 rating gives an output of 11,826,567 audiences.  
+Prediction of a movie released in November 2020, directed by 이병헌 with an actor 송강호, distributed by 씨제이, genre type drama, and PG-13 rating gives an output of 11,826,567 audiences.  
 
 
 
