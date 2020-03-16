@@ -7,10 +7,10 @@ Many people in South Korea judge a movie by its cover. They usually consider two
 
 Method
 ----------
-Source: KOBIS (Korea Box-office Information System, 2003~2019)
-ML model: KNN regressor
-Label: Number of audience
-Other columns: film name, film distributing company, film rating, film genre, film actor, film director
+* Source: KOBIS (Korea Box-office Information System, 2003~2019)  
+* ML model: KNN regressor  
+* Label: Number of audience  
+* Other columns: film name, film distributing company, film rating, film genre, film actor, film director  
 
 
 Sample
