@@ -15,7 +15,7 @@ Method
 
 Sample
 -------
-![main page]("./screenshot/movie_main.png")
+![main page]("/screenshot/movie_main.png")
 
 '''
 
