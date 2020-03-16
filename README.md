@@ -37,7 +37,7 @@ brief explanations in Korean
 ### Ranking    
 <img width="651" alt="movie_ranking" src="https://user-images.githubusercontent.com/57359849/76737971-1787cb80-67ad-11ea-84e2-34121c87ce56.PNG">  
 first column = actor  
-second column = accumulated number of audiences   
+second column = accumulated number of audiences  
 
 ### Chart   
 <img width="801" alt="movie_chart" src="https://user-images.githubusercontent.com/57359849/76737980-1e164300-67ad-11ea-8632-69a0ec30c699.PNG">  
