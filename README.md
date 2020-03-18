@@ -12,6 +12,15 @@ Method
 * Label: Number of audience  
 * Other columns: film name, film distributing company, film rating, film genre, film actor, film director  
 
+Libraries
+-------
+Please install following libraries: sys, Pyqt5, Matplotlib, Numpy, Pandas, Seaborn, Platform, Sklearn, Os, Subprocess, Urllib, Json, Bs4, Locale, time
+
+<pre>
+<code>
+$ pip install [above library]
+</code>
+</pre>  
 
 Getting Started
 -----------
